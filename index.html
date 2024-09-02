@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio- Aravind Vemula</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+    </style>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav class="container">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="hero">
+        <div class="container">
+            <img src="profile-pic.jpg" alt="Profile Picture">
+            <h1>V Aravind Goud</h1>
+            <p>Aspiring Web Developer & Data Analyst     Electronics and Communication Engineer</p>
+        </div>
+    </section>
+
+    <section id="skills" class="section">
+        <div class="container">
+            <h2 class="section-title">My Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <h3>Data Analysis</h3>
+                    <p>Experienced in HR data analysis, including sorting, CRUD operations, and data visualization.</p>
+                </div>
+                <div class="skill-card">
+                    <h3>Programming</h3>
+                    <p>Proficient in Python and JavaScript. Experienced with Git, VS Code, and Linux Operating system.</p>
+                </div>
+                <div class="skill-card">
+                    <h3>Database Management</h3>
+                    <p>Skilled in SQL and MySQL for efficient data storage and retrieval.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="section">
+        <div class="container">
+            <h2 class="section-title">My Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <img src="todo-list.jpg" alt="To-Do List Application">
+                    <div class="project-card-content">
+                        <a href="https://aravindvemulaa.github.io/to-do-webapp/" style="text-decoration: none;color: #333;;"><h3>To-Do List Application</h3></a>
+                        <p>A comprehensive task management application built with JavaScript, HTML, CSS, and SQL.</p>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <img src="fruit-detection.jpg" alt="Real-Time Object Detection of Fruits">
+                    <div class="project-card-content">
+                        <a href="" style="text-decoration: none;color: #333;;"><h3>Real-Time Fruit Detection</h3></a>
+                        <p>An intelligent system using CNN and Python to accurately identify different fruits in images.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section">
+        <div class="container">
+            <h2 class="section-title">Contact Me</h2>
+            <form id="contact-form">
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 V Aravind Goud. All rights reserved.</p>
+        </div>
+    </footer>
+    <script src="Home.js"></script>
+</body>
+</html>
